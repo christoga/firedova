@@ -8,6 +8,6 @@ function submitForm() {
     alert('Input is not filled');
   } else {
     // Success message
-    alert('Your name is: ' + first + last)
+    alert('Your name is: ' + first + " " + last)
   }
 }
