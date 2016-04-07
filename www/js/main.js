@@ -1,3 +1,7 @@
+document.addEventListener("deviceready", function () {
+    Firebase.goOnline();
+});
+
 function submitForm() {
   // Firebase ref
   var ref = new Firebase("https://firedova.firebaseio.com");
