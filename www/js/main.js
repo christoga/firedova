@@ -1,7 +1,7 @@
 function submitForm() {
   // Get input value
-  var first = $('#first').val();
-  var last = $('#last').val();
+  var first = $('#first').val(),
+      last = $('#last').val();
 
   if (first === '' || last === '') {
     // Error message
